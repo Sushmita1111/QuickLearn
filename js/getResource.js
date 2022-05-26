@@ -49,6 +49,7 @@ const domains = [
   "robotics",
   "CyberSecurity",
   "linux"
+  
 ];
 let bres = "";
 let bdata = "";
@@ -81,6 +82,7 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
     intermediateResourceBox.innerHTML = "";
     advancedResourceBox.innerHTML = "";
     const value = selectCategoryBtn[i].value;
+
 
     if (value == "Blockchain" || value == "ethical_hacking" || value == "Game_dev" || value == "robotics" || value == "CyberSecurity" || value == "data_structure_&_algorithm" || value == "database_management" || value == "api" || value == "linux") {
       console.log("hello");
