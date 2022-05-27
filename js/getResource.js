@@ -48,8 +48,9 @@ const domains = [
   "Game_dev",
   "robotics",
   "CyberSecurity",
+  //new section - for linux resources
   "linux"
-  
+
 ];
 let bres = "";
 let bdata = "";
@@ -83,6 +84,8 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
     advancedResourceBox.innerHTML = "";
     const value = selectCategoryBtn[i].value;
 
+
+    
 
     if (value == "Blockchain" || value == "ethical_hacking" || value == "Game_dev" || value == "robotics" || value == "CyberSecurity" || value == "data_structure_&_algorithm" || value == "database_management" || value == "api" || value == "linux") {
       console.log("hello");
